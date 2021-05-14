@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA005FE32634860C000EBF6A /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = EA005FE22634860C000EBF6A /* OSCKit */; };
+		EA005FE826348664000EBF6A /* UDPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA005FE726348664000EBF6A /* UDPServer.swift */; };
+		EA98FF2D26338CF200F34A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98FF2C26338CF200F34A7B /* AppDelegate.swift */; };
+		EA98FF2F26338CF200F34A7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98FF2E26338CF200F34A7B /* SceneDelegate.swift */; };
+		EA98FF3126338CF200F34A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98FF3026338CF200F34A7B /* ViewController.swift */; };
+		EA98FF3426338CF200F34A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA98FF3226338CF200F34A7B /* Main.storyboard */; };
+		EA98FF3626338CF200F34A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA98FF3526338CF200F34A7B /* Assets.xcassets */; };
+		EA98FF3926338CF200F34A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA98FF3726338CF200F34A7B /* LaunchScreen.storyboard */; };
+		EA98FF4426338CF300F34A7B /* OSC_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98FF4326338CF300F34A7B /* OSC_TimerTests.swift */; };
+		EA98FF4F26338CF300F34A7B /* OSC_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98FF4E26338CF300F34A7B /* OSC_TimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA98FF4026338CF300F34A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA98FF2126338CF200F34A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA98FF2826338CF200F34A7B;
+			remoteInfo = OSC_Timer;
+		};
+		EA98FF4B26338CF300F34A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA98FF2126338CF200F34A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA98FF2826338CF200F34A7B;
+			remoteInfo = OSC_Timer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA005FE726348664000EBF6A /* UDPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPServer.swift; sourceTree = "<group>"; };
+		EA98FF2926338CF200F34A7B /* OSC_Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSC_Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA98FF2C26338CF200F34A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA98FF2E26338CF200F34A7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA98FF3026338CF200F34A7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA98FF3326338CF200F34A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA98FF3526338CF200F34A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA98FF3826338CF200F34A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA98FF3A26338CF200F34A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA98FF3F26338CF300F34A7B /* OSC_TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSC_TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA98FF4326338CF300F34A7B /* OSC_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSC_TimerTests.swift; sourceTree = "<group>"; };
+		EA98FF4526338CF300F34A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA98FF4A26338CF300F34A7B /* OSC_TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSC_TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA98FF4E26338CF300F34A7B /* OSC_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSC_TimerUITests.swift; sourceTree = "<group>"; };
+		EA98FF5026338CF300F34A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA98FF2626338CF200F34A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA005FE32634860C000EBF6A /* OSCKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA98FF3C26338CF300F34A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA98FF4726338CF300F34A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA98FF2026338CF200F34A7B = {
+			isa = PBXGroup;
+			children = (
+				EA98FF2B26338CF200F34A7B /* OSC_Timer */,
+				EA98FF4226338CF300F34A7B /* OSC_TimerTests */,
+				EA98FF4D26338CF300F34A7B /* OSC_TimerUITests */,
+				EA98FF2A26338CF200F34A7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA98FF2A26338CF200F34A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA98FF2926338CF200F34A7B /* OSC_Timer.app */,
+				EA98FF3F26338CF300F34A7B /* OSC_TimerTests.xctest */,
+				EA98FF4A26338CF300F34A7B /* OSC_TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA98FF2B26338CF200F34A7B /* OSC_Timer */ = {
+			isa = PBXGroup;
+			children = (
+				EA98FF2C26338CF200F34A7B /* AppDelegate.swift */,
+				EA98FF2E26338CF200F34A7B /* SceneDelegate.swift */,
+				EA98FF3026338CF200F34A7B /* ViewController.swift */,
+				EA005FE726348664000EBF6A /* UDPServer.swift */,
+				EA98FF3226338CF200F34A7B /* Main.storyboard */,
+				EA98FF3526338CF200F34A7B /* Assets.xcassets */,
+				EA98FF3726338CF200F34A7B /* LaunchScreen.storyboard */,
+				EA98FF3A26338CF200F34A7B /* Info.plist */,
+			);
+			path = OSC_Timer;
+			sourceTree = "<group>";
+		};
+		EA98FF4226338CF300F34A7B /* OSC_TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA98FF4326338CF300F34A7B /* OSC_TimerTests.swift */,
+				EA98FF4526338CF300F34A7B /* Info.plist */,
+			);
+			path = OSC_TimerTests;
+			sourceTree = "<group>";
+		};
+		EA98FF4D26338CF300F34A7B /* OSC_TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA98FF4E26338CF300F34A7B /* OSC_TimerUITests.swift */,
+				EA98FF5026338CF300F34A7B /* Info.plist */,
+			);
+			path = OSC_TimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA98FF2826338CF200F34A7B /* OSC_Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA98FF5326338CF300F34A7B /* Build configuration list for PBXNativeTarget "OSC_Timer" */;
+			buildPhases = (
+				EA98FF2526338CF200F34A7B /* Sources */,
+				EA98FF2626338CF200F34A7B /* Frameworks */,
+				EA98FF2726338CF200F34A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSC_Timer;
+			packageProductDependencies = (
+				EA005FE22634860C000EBF6A /* OSCKit */,
+			);
+			productName = OSC_Timer;
+			productReference = EA98FF2926338CF200F34A7B /* OSC_Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA98FF3E26338CF300F34A7B /* OSC_TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA98FF5626338CF300F34A7B /* Build configuration list for PBXNativeTarget "OSC_TimerTests" */;
+			buildPhases = (
+				EA98FF3B26338CF300F34A7B /* Sources */,
+				EA98FF3C26338CF300F34A7B /* Frameworks */,
+				EA98FF3D26338CF300F34A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA98FF4126338CF300F34A7B /* PBXTargetDependency */,
+			);
+			name = OSC_TimerTests;
+			productName = OSC_TimerTests;
+			productReference = EA98FF3F26338CF300F34A7B /* OSC_TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA98FF4926338CF300F34A7B /* OSC_TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA98FF5926338CF300F34A7B /* Build configuration list for PBXNativeTarget "OSC_TimerUITests" */;
+			buildPhases = (
+				EA98FF4626338CF300F34A7B /* Sources */,
+				EA98FF4726338CF300F34A7B /* Frameworks */,
+				EA98FF4826338CF300F34A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA98FF4C26338CF300F34A7B /* PBXTargetDependency */,
+			);
+			name = OSC_TimerUITests;
+			productName = OSC_TimerUITests;
+			productReference = EA98FF4A26338CF300F34A7B /* OSC_TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA98FF2126338CF200F34A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EA98FF2826338CF200F34A7B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EA98FF3E26338CF300F34A7B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EA98FF2826338CF200F34A7B;
+					};
+					EA98FF4926338CF300F34A7B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EA98FF2826338CF200F34A7B;
+					};
+				};
+			};
+			buildConfigurationList = EA98FF2426338CF200F34A7B /* Build configuration list for PBXProject "OSC_Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA98FF2026338CF200F34A7B;
+			packageReferences = (
+				EA005FE12634860C000EBF6A /* XCRemoteSwiftPackageReference "OSCKit" */,
+			);
+			productRefGroup = EA98FF2A26338CF200F34A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA98FF2826338CF200F34A7B /* OSC_Timer */,
+				EA98FF3E26338CF300F34A7B /* OSC_TimerTests */,
+				EA98FF4926338CF300F34A7B /* OSC_TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA98FF2726338CF200F34A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA98FF3926338CF200F34A7B /* LaunchScreen.storyboard in Resources */,
+				EA98FF3626338CF200F34A7B /* Assets.xcassets in Resources */,
+				EA98FF3426338CF200F34A7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA98FF3D26338CF300F34A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA98FF4826338CF300F34A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA98FF2526338CF200F34A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA98FF3126338CF200F34A7B /* ViewController.swift in Sources */,
+				EA98FF2D26338CF200F34A7B /* AppDelegate.swift in Sources */,
+				EA005FE826348664000EBF6A /* UDPServer.swift in Sources */,
+				EA98FF2F26338CF200F34A7B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA98FF3B26338CF300F34A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA98FF4426338CF300F34A7B /* OSC_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA98FF4626338CF300F34A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA98FF4F26338CF300F34A7B /* OSC_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA98FF4126338CF300F34A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA98FF2826338CF200F34A7B /* OSC_Timer */;
+			targetProxy = EA98FF4026338CF300F34A7B /* PBXContainerItemProxy */;
+		};
+		EA98FF4C26338CF300F34A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA98FF2826338CF200F34A7B /* OSC_Timer */;
+			targetProxy = EA98FF4B26338CF300F34A7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA98FF3226338CF200F34A7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA98FF3326338CF200F34A7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA98FF3726338CF200F34A7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA98FF3826338CF200F34A7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA98FF5126338CF300F34A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA98FF5226338CF300F34A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA98FF5426338CF300F34A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFAK28T88P;
+				INFOPLIST_FILE = OSC_Timer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.OSC-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA98FF5526338CF300F34A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFAK28T88P;
+				INFOPLIST_FILE = OSC_Timer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.OSC-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA98FF5726338CF300F34A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OSC_TimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.OSC-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSC_Timer.app/OSC_Timer";
+			};
+			name = Debug;
+		};
+		EA98FF5826338CF300F34A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OSC_TimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.OSC-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSC_Timer.app/OSC_Timer";
+			};
+			name = Release;
+		};
+		EA98FF5A26338CF300F34A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OSC_TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.OSC-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OSC_Timer;
+			};
+			name = Debug;
+		};
+		EA98FF5B26338CF300F34A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OSC_TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.OSC-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OSC_Timer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA98FF2426338CF200F34A7B /* Build configuration list for PBXProject "OSC_Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA98FF5126338CF300F34A7B /* Debug */,
+				EA98FF5226338CF300F34A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA98FF5326338CF300F34A7B /* Build configuration list for PBXNativeTarget "OSC_Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA98FF5426338CF300F34A7B /* Debug */,
+				EA98FF5526338CF300F34A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA98FF5626338CF300F34A7B /* Build configuration list for PBXNativeTarget "OSC_TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA98FF5726338CF300F34A7B /* Debug */,
+				EA98FF5826338CF300F34A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA98FF5926338CF300F34A7B /* Build configuration list for PBXNativeTarget "OSC_TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA98FF5A26338CF300F34A7B /* Debug */,
+				EA98FF5B26338CF300F34A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA005FE12634860C000EBF6A /* XCRemoteSwiftPackageReference "OSCKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/OSCKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA005FE22634860C000EBF6A /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA005FE12634860C000EBF6A /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EA98FF2126338CF200F34A7B /* Project object */;
+}

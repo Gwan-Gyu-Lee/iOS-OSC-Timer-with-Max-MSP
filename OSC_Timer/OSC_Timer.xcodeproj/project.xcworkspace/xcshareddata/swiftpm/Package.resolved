@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OSCKit",
+        "repositoryURL": "https://github.com/orchetect/OSCKit",
+        "state": {
+          "branch": null,
+          "revision": "13ec2746f902b9622fb8e2f97f5470de81a550e2",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "OTCore",
+        "repositoryURL": "https://github.com/orchetect/OTCore",
+        "state": {
+          "branch": null,
+          "revision": "3a7371c2fb94b455c22bbe7626254b3f4b5012e6",
+          "version": "1.1.6"
+        }
+      },
+      {
+        "package": "SwiftASCII",
+        "repositoryURL": "https://github.com/orchetect/SwiftASCII",
+        "state": {
+          "branch": null,
+          "revision": "656aa4cb27b6042fc22ca904cf23eef0a1bdccf9",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "SwiftRadix",
+        "repositoryURL": "https://github.com/orchetect/SwiftRadix",
+        "state": {
+          "branch": null,
+          "revision": "51d9d6247c9b07521ffa1e0268fb84e30e0efcf8",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

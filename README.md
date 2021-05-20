@@ -15,7 +15,11 @@ Go to Settings - WiFi - Click information of your WiFi - You can see your IPAddr
 
 <img src="https://user-images.githubusercontent.com/79373845/118238390-6a553400-b4d3-11eb-8ed0-b94d49cd9416.jpg" width = "350" height = "700">
 
-If you want to repeat time between 4:00 to 4:20, count and startCount is 240, repeatCount is 260.
+If you want to repeat time between 4:00 to 4:20.    
+
+    var count: Int = 240
+    var startCount: Int = 240
+    var repeatCount: Int = 260
 
 ## Settings in Max/MSP
 

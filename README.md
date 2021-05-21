@@ -1,8 +1,5 @@
 # iOS-OSC-Timer
 
-This application contains copyrighted software under MIT License version 0.2.0.    
-OSCKit - https://github.com/orchetect/OSCKit
-
 ## How to build
 
 Open OSC_Timer.xcodeproj.    
@@ -32,4 +29,5 @@ Set the host by the IPAddress.
 
 ![OSC_Timer_Simulate mov](https://user-images.githubusercontent.com/79373845/118239864-42ff6680-b4d5-11eb-8a7f-f65088a888be.gif)
 
-
+This application contains copyrighted software under MIT License version 0.2.0.    
+OSCKit - https://github.com/orchetect/OSCKit

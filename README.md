@@ -1,7 +1,6 @@
 # iOS-OSC-Timer
 
-This application contains copyrighted software under MIT License version 0.2.0.    
-OSCKit - https://github.com/orchetect/OSCKit
+This application is made for Stad-S by Sujin Jung, 2021 SSLI Exhibition.
 
 ## How to build
 

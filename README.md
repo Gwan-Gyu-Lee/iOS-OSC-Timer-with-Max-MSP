@@ -5,7 +5,7 @@ This application is made for Stad-S by Sujin Jung, 2021 SSLI Exhibition.
 ## How to build
 
 Open OSC_Timer.xcodeproj.    
-If you want to repeat time between 4:00 to 4:20.    
+If you want to repeat time between 4:00 to 4:20,    
 ```swift
 var count: Int = 240
 var startCount: Int = 240

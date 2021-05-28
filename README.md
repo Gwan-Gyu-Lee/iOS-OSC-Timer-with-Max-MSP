@@ -7,9 +7,9 @@ This application is made for Stad-S by Sujin Jung, 2021 SSLI Exhibition.
 Open OSC_Timer.xcodeproj.    
 If you want to repeat time between 4:00 to 4:20,    
 ```swift
-var count: Int = 240
-var startCount: Int = 240
-var repeatCount: Int = 260
+var count: Int = 240 //60s * 4 = 4:00
+var startCount: Int = 240 //60s * 4 = 4:00
+var repeatCount: Int = 260 //60s * 4 + 20 = 4:20
 ```
 Connect your any ios devices.    
 Build it.

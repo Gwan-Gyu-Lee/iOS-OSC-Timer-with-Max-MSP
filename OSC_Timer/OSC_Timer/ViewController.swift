@@ -3,7 +3,9 @@
 //  OSC_Timer
 //
 //  Created by Gwan-Gyu Lee(frd.lee@icloud.com) on 4/24/21.
-//
+// 
+//  This application contains copyrighted software under MIT License.
+//  OSCKit - Copyright (c) 2018 Steffan Andrews - https://github.com/orchetect
 
 import UIKit
 import OSCKit

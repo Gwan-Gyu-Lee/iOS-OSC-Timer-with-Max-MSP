@@ -2,6 +2,8 @@
 
 This application is made for Stad-S by Sujin Jung, 2021 SSLI Exhibition.
 
+![IMG_4758](https://user-images.githubusercontent.com/79373845/120902937-14ad1b00-c67e-11eb-9534-3f3067a58da4.jpeg)
+
 ## How to build
 
 Open OSC_Timer.xcodeproj.    

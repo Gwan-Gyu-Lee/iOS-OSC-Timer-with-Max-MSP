@@ -32,3 +32,6 @@ Set the host by the IPAddress.
 4:00 ~ 4:20
 
 ![OSC_Timer_Simulate mov](https://user-images.githubusercontent.com/79373845/118239864-42ff6680-b4d5-11eb-8a7f-f65088a888be.gif)
+
+This application contains copyrighted software under MIT License.
+OSCKit - Copyright (c) 2018 Steffan Andrews

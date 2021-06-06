@@ -13,6 +13,20 @@ var count: Int = 240 //60s * 4 = 4:00
 var startCount: Int = 240 //60s * 4 = 4:00
 var repeatCount: Int = 260 //60s * 4 + 20 = 4:20
 ```
+Set the port.    
+Default port number is 8000.
+```swift
+do {
+    oscServer = try UDPServer(
+        host: "localhost",
+        port: 8000,
+        queue: DispatchQueue.global(qos: .userInteractive)
+    )
+} catch {
+    print("Error initializing UDP server:", error)
+    return
+}
+```
 Connect your any ios devices.    
 Build it.
 

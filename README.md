@@ -1,4 +1,4 @@
-# iOS-OSC-Timer
+# iOS-OSC-Timer-with-Max-MSP
 
 This application is made for Stad-S by Sujin Jung, 2021 SSLI Exhibition.
 
